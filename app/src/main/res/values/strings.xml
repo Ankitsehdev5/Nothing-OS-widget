@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nothing Music Widget</string>
+    <string name="widget_name">Nothing Music</string>
+    <string name="album_art_desc">Album Art</string>
+    <string name="play_pause_desc">Play or Pause</string>
+    <string name="prev_track_desc">Previous Track</string>
+    <string name="next_track_desc">Next Track</string>
+</resources>

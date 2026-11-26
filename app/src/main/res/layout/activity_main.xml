@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nothing_black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:letterSpacing="0.12"
+        android:text="NOTHING MUSIC WIDGET"
+        android:textColor="@color/nothing_white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_permission_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textColor="@color/nothing_gray"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_grant_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/nothing_red"
+        android:fontFamily="monospace"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:text="GRANT ACCESS"
+        android:textColor="@color/nothing_white" />
+
+</LinearLayout>
